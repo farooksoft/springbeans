@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	<bean id="employeeBean" class= "com.stackroute.wave6_demo.Employee">
+		<property name="name" value ="Harry"/>
+		<property name="designation" value="developer"/>
+		<property name="gender" value="Male"/>
+		<property name="age" value="29"/>
+	</bean>
+</beans>
+
+
